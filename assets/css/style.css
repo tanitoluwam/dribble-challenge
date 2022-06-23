@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:#1B1C1E;
+}
+.container{
+    width:100%;
+    margin:0 auto;
+    padding: 0 100px;
+    background-color:#fee8dacf;
+    height:100vh;
+}
+.navigation{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-top:20px;
+    background-color:#fee8da;
+}
+.logo{
+    font-size:20px;
+    display: flex;
+    align-items: center;
+}
+.logo-text{
+    margin-left: 10px;
+
+}
+.logo-img{
+    width:40px;
+    height:40px;
+}
+.links{
+    display: flex;
+}
+.link{
+    list-style-type:none;
+    padding: 10px 20px;
+    font-size:17px;
+}
+.detail-link{
+    list-style-type:none;
+    font-size:17px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color:#ccf71e;
+    box-shadow: 5px 5px #000000;
+
+}
+.introduction{
+    display:flex;
+}
+.intro-header{
+    margin-top:60px;
+    padding-top: 30px;
+    font-size:65px;
+    margin-bottom:20px;
+    font-weight: bold;
+}
+.intro-text{
+    font-size: 20px;
+    margin-bottom: 20px;
+    width:75%;
+}
+.action-btn{
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #F6F6F6;
+    margin-right:20px;
+    box-shadow: 5px 5px #000000;
+}
+.detail-btn{
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color:#ccf71e;
+    box-shadow: 5px 5px #000000;
+}
+.intro-img{
+    margin-top: 20px;
+   width:50%;
+}
+.team-pic{
+    width:500px;
+    height:400px
+}
+.community{
+    display:flex;
+    justify-content: space-between;
+}
+.community-insight{
+    width:48%;
+    height:250px;
+    background-color:#ffb3809a;
+    box-shadow: 5px 10px #000000;
+    border-radius:10px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.commmunity-insight-header{
+    margin: 15px 0;
+}
+.community-insight-text{
+    width:55%;
+    text-align: justify;
+    padding:0 10px;
+}
+.community-insight-main{
+    margin-bottom:20px;
+}
+.community-link{
+    font-weight: bold;
+}
+
+
+.live-support{
+    width:48%;
+    height:250px;
+    background-color:#faed27;
+    box-shadow: 5px 10px #000000;
+    border-radius:10px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+.user-img{
+    width: 180px;
+    height: 200px;
+}
+.page-footer{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.footer-links{
+    display: flex;
+}
+.footer-link{
+    list-style-type:none;
+    font-size: 14px;
+    padding-left:15px;
+
+}
